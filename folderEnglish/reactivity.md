@@ -13,11 +13,13 @@ IN THE EXAMPLE BELOW, AT EVERY CLICK ON THE "ADD NUMBER" BUTTON, AN ELEMENT IS A
     }
 </script>
 
-<p>NUMBERS: {arrayNumeros.join(" => ")}</p>
+<p>NUMBERS: {arrayNumbers.join(" => ")}</p>
 
 <button on:click={functionAddNumber}>ADD NUMBER</button>
 <button on:click={()=>alert(arrayNumbers)}>SHOW ARRAY</button>
 ```
+
+[LINK PARA EXECURAR O CÓDIGO ACIMA](https://svelte.dev/repl/511451d9deb04a65bd77d281d1d73380?version=3.54.0)
 
 NOTE (BY CLICKING ON BOTH BUTTONS) THAT, ALTHOUGH THE SEQUENCE IS BEING UPDATED, THE VALUES DISPLAYED ON THE SCREEN ARE NOT UPDATED. THIS HAPPENS BECAUSE THE REACTIVITY OF SVELTE IS CAUSED ONLY IF THE "=" IS USED. AS THE ARRAY IS BEING CHANGED WITHOUT USING "=" (THROUGH THE `push` FUNCTION), THE REACTIVITY DOESN'T HAPPEN, THAT IS, THE UPDATE IS NOT PERCEIVED BY SVELTE.
 
@@ -33,7 +35,7 @@ ONE WAY TO FIX THIS IS WITH `arrayNumbers=arrayNumbers`. THIS WAY WE FORCE THE U
     }
 </script>
 
-<p>NUMBERS: {arrayNumeros.join(" => ")}</p>
+<p>NUMBERS: {arrayNumbers.join(" => ")}</p>
 
 <button on:click={functionAddNumber}>ADD NUMBER</button>
 <button on:click={()=>alert(arrayNumbers)}>SHOW ARRAY</button>
