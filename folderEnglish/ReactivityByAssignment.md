@@ -40,3 +40,5 @@ ONE WAY TO FIX THIS IS WITH `arrayNumbers=arrayNumbers`. THIS WAY WE FORCE THE U
 <button on:click={functionAddNumber}>ADD NUMBER</button>
 <button on:click={()=>alert(arrayNumbers)}>SHOW ARRAY</button>
 ```
+
+[RUN THE CODE](https://svelte.dev/repl/cae4260c6bac4c5ab2a7af3ebc412850?version=3.54.0)
