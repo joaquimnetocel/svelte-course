@@ -31,7 +31,7 @@ UMA MANEIRA DE CORRIGIR ISSO, É COM `arrayNumeros=arrayNumeros`. DESTA FORMA FO
 
     function funcaoAdicionarNumeros(){
         arrayNumeros.push(arrayNumeros.length+1);
-        arrayNumeros=arrayNumeros; // NEW LINE
+        arrayNumeros=arrayNumeros; // ESTA LINHA FORÇA A REATIVIDADE
     }
 </script>
 

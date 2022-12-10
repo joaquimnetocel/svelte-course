@@ -31,7 +31,7 @@ ONE WAY TO FIX THIS IS WITH `arrayNumbers=arrayNumbers`. THIS WAY WE FORCE THE U
 
     function functionAddNumber(){
         arrayNumbers.push(arrayNumbers.length+1);
-        arrayNumbers=arrayNumbers; // NEW LINE
+        arrayNumbers=arrayNumbers; // THIS LINE FORCES REACTIVITY
     }
 </script>
 
