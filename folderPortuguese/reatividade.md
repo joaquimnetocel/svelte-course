@@ -1,0 +1,40 @@
+# REACTIVITY
+
+A REATIVIDADE DO SVELTE É PROVOCADA POR ATRIBUIÇÃO (USANDO O "="). MÉTODOS QUE ALTERAM ARRAYS OU OBJETOS NÃO ACIONARÃO ATUALIZAÇÕES. VAMOS ENTENDER O PROBLEMA NO EXEMPLO ABAIXO.
+
+NO EXEMPLO ABAIXO, A CADA CLIQUE NO BOTÃO "ADICIONAR NÚMERO" UM ELEMENTO É ADICIONADO NA SEQUÊNCIA DE NÚMEROS.
+
+```javascript
+<script>
+    let arrayNumeros = [1,2,3,4];
+
+    function funcaoAdicionarNumeros(){
+        arrayNumeros.push(arrayNumeros.length+1);
+    }
+</script>
+
+<p>NÚMEROS: {arrayNumeros.join(" => ")}</p>
+
+<button on:click={funcaoAdicionarNumeros}>ADICIONAR NÚMERO</button>
+<button on:click={()=>alert(arrayNumeros)}>MOSTRAR ARRAY</button>
+```
+
+REPARE (CLICANDO EM AMBOS OS BOTÕES) QUE, EMBORA A SEQUÊNCIA ESTEJA SENDO ATUALIZADA, OS VALORES EXIBIDOS NA TELA NÃO SÃO ATUALIZADOS. ISSO ACONTECE POIS A REATIVIDADE DO SVELTE É PROVOCADA SOMENTE SE O "=" FOR UTILIZADO. COMO O ARRAY ESTÁ SENDO ALTERADO SEM UTILIZAR "=" EM MOMENTO ALGUMPELA FUNÇÃO (ATRAVÉS DA FUNÇÃO `push`), A REATIVIDADE NÃO ACONTECE, OU SEJA, A ALTERAÇÃO NÃO É PERCEBIDA PELO SVELTE.
+
+UMA MANEIRA DE CORRIGIR ISSO, É COM `arrayNumeros=arrayNumeros`. DESTA FORMA FORÇAMOS A UTILIZAÇÃO DO "=" PARA QUE A ALTERAÇÃO SEJA PERCEBIDA PELO SVELTE E A ATUALIZAÇÃO OCORRA. VEJAMOS:
+
+```javascript
+<script>
+    let arrayNumeros = [1,2,3,4];
+
+    function funcaoAdicionarNumeros(){
+        arrayNumeros.push(arrayNumeros.length+1);
+        arrayNumeros=arrayNumeros; // NEW LINE
+    }
+</script>
+
+<p>NÚMEROS: {arrayNumeros.join(" => ")}</p>
+
+<button on:click={funcaoAdicionarNumeros}>ADICIONAR NÚMERO</button>
+<button on:click={()=>alert(arrayNumeros)}>MOSTRAR ARRAY</button>
+```
