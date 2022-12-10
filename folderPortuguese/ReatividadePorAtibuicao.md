@@ -42,3 +42,5 @@ UMA MANEIRA DE CORRIGIR ISSO, É COM `arrayNumeros=arrayNumeros`. DESTA FORMA FO
 ```
 
 [RODAR O CÓDIGO](https://svelte.dev/repl/7a76e9e027aa4c2c9b0a86f48a053fa7?version=3.54.0)
+
+[VOLTAR](../LEIAME.md)
