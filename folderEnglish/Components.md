@@ -11,6 +11,7 @@ LET'S SEE THE EXAMPLE OF A COMPONENT IN SVELTE:
 console.log("WELCOME!");
 </script>
 
+<h1>TITLE</h1>
 <p>MY FIRST <span class="classColor">COMPONENT</span>.</p>
 
 <style>
@@ -20,7 +21,7 @@ console.log("WELCOME!");
 </style>
 ```
 
-[RUN THE CODE](https://svelte.dev/repl/8317951f7e3f45b7b5d908ed6134d710?version=3.54.0)
+[RUN CODE](https://svelte.dev/repl/8317951f7e3f45b7b5d908ed6134d710?version=3.54.0)
 
 AS WE CAN SEE, SVELTE FILES CAN BE DIVIDED INTO THREE PARTS:
 
@@ -30,7 +31,7 @@ AS WE CAN SEE, SVELTE FILES CAN BE DIVIDED INTO THREE PARTS:
 
 ## USING JAVASCRIPT IN THE TEMPLATE
 
-SVELTE ALLOWS THE USE OF VARIABLES AND JAVASCRIPT CODE DIRECTLY IN THE TEMPLATE. TO DO THIS, JUST USE A PAIR OF BRACES: `{}`. LET'S SEE THE EXAMPLE:
+SVELTE ALLOWS THE USE OF VARIABLES AND JAVASCRIPT CODE DIRECTLY IN THE TEMPLATE. TO DO THIS, JUST PUT ANY JAVASCRIPT YOU WANT INSIDE THE CURLY BRACES. USE A PAIR OF CURLY BRACES: `{}`. LET'S SEE THE EXAMPLE:
 
 ```svelte
 <script>
@@ -46,7 +47,20 @@ const stringWord = "HOUSE";
 </style>
 ```
 
-[RODAR CÓDIGO](https://svelte.dev/repl/1af723b3f1de4f0393661e69cec8d27a?version=3.54.0)
+[RUN CODE](https://svelte.dev/repl/1af723b3f1de4f0393661e69cec8d27a?version=3.54.0)
+
+IT IS ALSO POSSIBLE TO USE CURLY BRACES TO CONTROL ELEMENTS ATTRIBUTES. LET'S SEE THE EXAMPLE:
+
+```svelte
+<script>
+    const stringText = "JOHN";
+</script>
+
+<p>WHAT IS YOUR NAME? <input value={stringText}></p>
+```
+
+[RODAR CÓDIGO](https://svelte.dev/repl/988f0263e65e42a98d464fddaa580902?version=3.55.0)
+
 
 ## COMPONENTS HAVE LOCAL SCOPE
 
