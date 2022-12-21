@@ -59,8 +59,22 @@ IT IS ALSO POSSIBLE TO USE CURLY BRACES TO CONTROL ELEMENTS ATTRIBUTES. LET'S SE
 <p>WHAT IS YOUR NAME? <input value={stringText}></p>
 ```
 
-[RODAR CÓDIGO](https://svelte.dev/repl/988f0263e65e42a98d464fddaa580902?version=3.55.0)
+[RUN CODE](https://svelte.dev/repl/988f0263e65e42a98d464fddaa580902?version=3.55.0)
 
+## SHORTHAND ATTRIBUTES
+
+IF THE ATTRIBUTE NAME AND VARIABLE NAME ARE THE SAME, SVELTE ALLOWS A CONVENIENT ABBREVIATION:
+
+```svelte
+<script>
+const value = "BANANA";
+</script>
+
+WHAT IS YOUR FAVORITE FRUIT? <input {value}/>
+<!-- HERE WE USED {value} AS A SHORTCUT OF value={value} -->
+```
+
+[RUN THE CODE](https://svelte.dev/repl/988f0263e65e42a98d464fddaa580902?version=3.55.0)
 
 ## COMPONENTS HAVE LOCAL SCOPE
 
