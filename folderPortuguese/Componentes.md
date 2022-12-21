@@ -21,7 +21,7 @@ console.log("BEM VINDO!");
 </style>
 ```
 
-[RODAR O CÓDIGO](https://svelte.dev/repl/e0f27e9172c243259160487a99087dfb?version=3.54.0)
+[RODAR O CÓDIGO](https://svelte.dev/repl/e0f27e9172c243259160487a99087dfb)
 
 COMO PODEMOS VER, ARQUIVOS DE SVELTE PODEM SER DIVIDIDOS EM TRÊS PARTES:
 
@@ -47,7 +47,7 @@ const stringPalavra = "CASA";
 </style>
 ```
 
-[RODAR CÓDIGO](https://svelte.dev/repl/30bd4eaf84024b3ea49c635dc34991cb?version=3.54.0)
+[RODAR CÓDIGO](https://svelte.dev/repl/30bd4eaf84024b3ea49c635dc34991cb)
 
 TAMBÉM É POSSÍVEL USAR CHAVES PARA CONTROLAR ATRIBUTOS DE ELEMENTOS. VEJAMOS O EXEMPLO:
 
@@ -59,7 +59,7 @@ TAMBÉM É POSSÍVEL USAR CHAVES PARA CONTROLAR ATRIBUTOS DE ELEMENTOS. VEJAMOS 
 <p>QUAL É O SEU NOME? <input value={stringTexto}></p>
 ```
 
-[RODAR CÓDIGO](https://svelte.dev/repl/0b74a4dd3b554487a2f668629e3af9b6?version=3.55.0)
+[RODAR CÓDIGO](https://svelte.dev/repl/0b74a4dd3b554487a2f668629e3af9b6)
 
 ## ABREVIAÇÃO NA DEFINIÇÃO DE ATRIBUTOS
 
@@ -75,7 +75,7 @@ QUAL É A SUA FRUTA FAVORITA? <input {value}/>
 <!-- AQUI USAMOS {value} COMO UMA ABREVIAÇÃO DE value={value} -->
 ```
 
-[RODAR CÓDIGO](https://svelte.dev/repl/40b378e66daf41fe949a99b37a3a8932?version=3.55.0)
+[RODAR CÓDIGO](https://svelte.dev/repl/40b378e66daf41fe949a99b37a3a8932)
 
 ## COMPONENTES TEM ESCOPO LOCAL
 

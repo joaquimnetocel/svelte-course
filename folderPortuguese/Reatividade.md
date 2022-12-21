@@ -20,4 +20,4 @@ function funcaoDiminuir(){
 <p><button on:click={funcaoDiminuir}>DIMINUIR</button></p>
 ```
 
-[RODAR CÓDIGO](https://svelte.dev/repl/999f20202fb44c8cb694848e6d4bd5f5?version=3.55.0)
+[RODAR CÓDIGO](https://svelte.dev/repl/999f20202fb44c8cb694848e6d4bd5f5)

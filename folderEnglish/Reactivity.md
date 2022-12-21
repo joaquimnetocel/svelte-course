@@ -20,4 +20,4 @@ function functionDecrease(){
 <p><button on:click={functionDecrease}>DECREASE</button></p>
 ```
 
-[RUN CODE](https://svelte.dev/repl/d27135f25ed349118d0bf44ecef9d4a5?version=3.55.0)
+[RUN CODE](https://svelte.dev/repl/d27135f25ed349118d0bf44ecef9d4a5)

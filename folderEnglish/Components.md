@@ -21,7 +21,7 @@ console.log("WELCOME!");
 </style>
 ```
 
-[RUN CODE](https://svelte.dev/repl/8317951f7e3f45b7b5d908ed6134d710?version=3.54.0)
+[RUN CODE](https://svelte.dev/repl/8317951f7e3f45b7b5d908ed6134d710)
 
 AS WE CAN SEE, SVELTE FILES CAN BE DIVIDED INTO THREE PARTS:
 
@@ -47,7 +47,7 @@ const stringWord = "HOUSE";
 </style>
 ```
 
-[RUN CODE](https://svelte.dev/repl/1af723b3f1de4f0393661e69cec8d27a?version=3.54.0)
+[RUN CODE](https://svelte.dev/repl/1af723b3f1de4f0393661e69cec8d27a)
 
 IT IS ALSO POSSIBLE TO USE CURLY BRACES TO CONTROL ELEMENTS ATTRIBUTES. LET'S SEE THE EXAMPLE:
 
@@ -59,7 +59,7 @@ IT IS ALSO POSSIBLE TO USE CURLY BRACES TO CONTROL ELEMENTS ATTRIBUTES. LET'S SE
 <p>WHAT IS YOUR NAME? <input value={stringText}></p>
 ```
 
-[RUN CODE](https://svelte.dev/repl/988f0263e65e42a98d464fddaa580902?version=3.55.0)
+[RUN CODE](https://svelte.dev/repl/988f0263e65e42a98d464fddaa580902)
 
 ## SHORTHAND ATTRIBUTES
 
@@ -74,7 +74,7 @@ WHAT IS YOUR FAVORITE FRUIT? <input {value}/>
 <!-- HERE WE USED {value} AS A SHORTHAND OF value={value} -->
 ```
 
-[RUN THE CODE](https://svelte.dev/repl/afb46cbc73c94035b23971a37a909bbb?version=3.55.0)
+[RUN THE CODE](https://svelte.dev/repl/afb46cbc73c94035b23971a37a909bbb)
 
 ## COMPONENTS HAVE LOCAL SCOPE
 
