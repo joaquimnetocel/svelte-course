@@ -71,10 +71,10 @@ const value = "BANANA";
 </script>
 
 WHAT IS YOUR FAVORITE FRUIT? <input {value}/>
-<!-- HERE WE USED {value} AS A SHORTCUT OF value={value} -->
+<!-- HERE WE USED {value} AS A SHORTHAND OF value={value} -->
 ```
 
-[RUN THE CODE](https://svelte.dev/repl/988f0263e65e42a98d464fddaa580902?version=3.55.0)
+[RUN THE CODE](https://svelte.dev/repl/afb46cbc73c94035b23971a37a909bbb?version=3.55.0)
 
 ## COMPONENTS HAVE LOCAL SCOPE
 
