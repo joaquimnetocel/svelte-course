@@ -5,6 +5,7 @@
 * [IMPORTING COMPONENTS](./folderEnglish/ImportingComponents.md)
 * [REACTIVITY](./folderEnglish/Reactivity.md)
 * [REACTIVITY BY ASSIGNMENT](./folderEnglish/ReactivityByAssignment.md)
+* [VARIÁVEIS REATIVAS](./folderEnglish/ReactiveVariables.md)
 * [BUILDING A PROJECT] FALTA
 
 ## TRANSLATIONS

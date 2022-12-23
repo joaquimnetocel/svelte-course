@@ -5,7 +5,9 @@
 * [IMPORTANDO COMPONENTES](./folderPortuguese/ImportandoComponentes.md)
 * [REATIVIDADE](./folderPortuguese/Reatividade.md)
 * [REATIVIDADE POR ATRIBUIÇÃO](./folderPortuguese/ReatividadePorAtribuicao.md)
+* [VARIÁVEIS REATIVAS](./folderPortuguese/VariaveisReativas.md)
 * [CONSTRUINDO UM PROJETO] FALTA
+
 
 ## TRADUÇÕES
 

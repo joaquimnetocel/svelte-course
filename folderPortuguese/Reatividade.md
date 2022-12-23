@@ -4,18 +4,18 @@ NO CORAÇÃO DO SVELTE ESTÁ UM PODEROSO SISTEMA DE REATIVIDADE PARA MANTER SUA 
 
 ```svelte
 <script>
-let estadoIdade = 20;
+let numeroIdade = 20;
 
 function funcaoAumentar(){
-    estadoIdade = estadoIdade+1;
+    numeroIdade = numeroIdade+1;
 }
 function funcaoDiminuir(){
-    estadoIdade = estadoIdade-1;
+    numeroIdade = numeroIdade-1;
 }
 
 </script>
 
-<p>MINHA IDADE É {estadoIdade}<p>
+<p>MINHA IDADE É {numeroIdade}<p>
 <p><button on:click={funcaoAumentar}>AUMENTAR</button></p>
 <p><button on:click={funcaoDiminuir}>DIMINUIR</button></p>
 ```
