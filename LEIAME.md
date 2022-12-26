@@ -3,9 +3,10 @@
 * [COMPONENTES](./folderPortuguese/Componentes.md)
 * [HTML DENTRO DE VARIÁVEIS] FALTA
 * [IMPORTANDO COMPONENTES](./folderPortuguese/ImportandoComponentes.md)
-* [REATIVIDADE](./folderPortuguese/Reatividade.md)
+* [REATIVIDADE](./folderPortuguese/TemplateReativo.md)
 * [REATIVIDADE POR ATRIBUIÇÃO](./folderPortuguese/ReatividadePorAtribuicao.md)
-* [VARIÁVEIS REATIVAS](./folderPortuguese/VariaveisReativas.md)
+* [CÓDIGO REATIVO](./folderPortuguese/CodigoReativo.md)
+* [PROPRIEDADES](./folderPortuguese/Propriedades.md)
 * [CONSTRUINDO UM PROJETO] FALTA
 
 ## TRADUÇÕES

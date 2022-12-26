@@ -3,9 +3,10 @@
 * [COMPONENTS](./folderEnglish/Components.md)
 * [HTML INSIDE VARIABLES] FALTA
 * [IMPORTING COMPONENTS](./folderEnglish/ImportingComponents.md)
-* [REACTIVITY](./folderEnglish/Reactivity.md)
+* [REACTIVITY](./folderEnglish/ReactiveTemplate.md)
 * [REACTIVITY BY ASSIGNMENT](./folderEnglish/ReactivityByAssignment.md)
-* [VARIÁVEIS REATIVAS](./folderEnglish/ReactiveVariables.md)
+* [REACTIVE CODE](./folderEnglish/ReactiveCode.md)
+* [PROPERTIES](./folderEnglish/Properties.md)
 * [BUILDING A PROJECT] FALTA
 
 ## TRANSLATIONS
