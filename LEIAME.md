@@ -8,7 +8,6 @@
 * [VARIÁVEIS REATIVAS](./folderPortuguese/VariaveisReativas.md)
 * [CONSTRUINDO UM PROJETO] FALTA
 
-
 ## TRADUÇÕES
 
 [INGLÊS](./README.md)
