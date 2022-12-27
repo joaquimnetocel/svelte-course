@@ -1,7 +1,7 @@
 # SVELTE COURSE
 
 * [COMPONENTS](./folderEnglish/Components.md)
-* [HTML INSIDE VARIABLES] FALTA
+* [HTML IN STRINGS](./folderEnglish/HtmlInStrings.md)
 * [IMPORTING COMPONENTS](./folderEnglish/ImportingComponents.md)
 * [REACTIVITY](./folderEnglish/ReactiveTemplate.md)
 * [REACTIVITY BY ASSIGNMENT](./folderEnglish/ReactivityByAssignment.md)

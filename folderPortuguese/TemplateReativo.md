@@ -12,7 +12,6 @@ function funcaoAumentar(){
 function funcaoDiminuir(){
     numeroIdade = numeroIdade-1;
 }
-
 </script>
 
 <p>MINHA IDADE É {numeroIdade}<p>
@@ -21,3 +20,5 @@ function funcaoDiminuir(){
 ```
 
 [RODAR CÓDIGO](https://svelte.dev/repl/999f20202fb44c8cb694848e6d4bd5f5)
+
+[VOLTAR](../LEIAME.md)

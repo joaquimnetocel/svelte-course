@@ -1,7 +1,7 @@
 # CURSO DE SVELTE
 
 * [COMPONENTES](./folderPortuguese/Componentes.md)
-* [HTML DENTRO DE VARIÁVEIS] FALTA
+* [HTML EM STRINGS](./folderPortuguese/HtmlEmStrings.md)
 * [IMPORTANDO COMPONENTES](./folderPortuguese/ImportandoComponentes.md)
 * [REATIVIDADE](./folderPortuguese/TemplateReativo.md)
 * [REATIVIDADE POR ATRIBUIÇÃO](./folderPortuguese/ReatividadePorAtribuicao.md)
