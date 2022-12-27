@@ -1,12 +1,12 @@
 # CURSO DE SVELTE
 
-* [COMPONENTES](./folderPortuguese/Componentes.md)
-* [HTML EM STRINGS](./folderPortuguese/HtmlEmStrings.md)
-* [IMPORTANDO COMPONENTES](./folderPortuguese/ImportandoComponentes.md)
-* [REATIVIDADE](./folderPortuguese/TemplateReativo.md)
-* [REATIVIDADE POR ATRIBUIÇÃO](./folderPortuguese/ReatividadePorAtribuicao.md)
-* [CÓDIGO REATIVO](./folderPortuguese/CodigoReativo.md)
-* [PROPRIEDADES](./folderPortuguese/Propriedades.md)
+* [COMPONENTES](./folderPortugues/Componentes.md)
+* [HTML EM STRINGS](./folderPortugues/HtmlEmStrings.md)
+* [IMPORTANDO COMPONENTES](./folderPortugues/ImportandoComponentes.md)
+* [REATIVIDADE](./folderPortugues/TemplateReativo.md)
+* [REATIVIDADE POR ATRIBUIÇÃO](./folderPortugues/ReatividadePorAtribuicao.md)
+* [CÓDIGO REATIVO](./folderPortugues/CodigoReativo.md)
+* [PROPRIEDADES](./folderPortugues/Propriedades.md)
 * [CONSTRUINDO UM PROJETO] FALTA
 
 ## TRADUÇÕES
